@@ -5,10 +5,13 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 
+import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
+import javafx.scene.paint.Color;
+import javafx.scene.paint.Paint;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
 import trashsoftware.deepSearcher.configLoader.ConfigLoader;
@@ -119,7 +122,7 @@ public class Settings implements Initializable {
      *
      * @param stage the primary stage.
      */
-    public void setStage(Stage stage) {
+    void setStage(Stage stage) {
         this.stage = stage;
     }
 
@@ -128,7 +131,7 @@ public class Settings implements Initializable {
      *
      * @param ctrl the controller of main program.
      */
-    public void setController(MainPage ctrl) {
+    void setController(MainPage ctrl) {
         this.ctrl = ctrl;
     }
 
@@ -379,7 +382,8 @@ public class Settings implements Initializable {
         vbox.setAlignment(Pos.CENTER);
         vbox.setSpacing(10.0 * uiRatio);
 
-        Label display = new Label("======== " + lanLoader.show(311) + " ========");
+        HBox display = makeSeparator(311, 240.0);
+        HBox displayOptions = makeSeparator(319, 180.0);
 
         Label languageText = new Label(lanLoader.show(303));
 
@@ -389,8 +393,7 @@ public class Settings implements Initializable {
         languageChooser = new ComboBox<>(options);
         languageChooser.getSelectionModel().select(lanLoader.show(0));
 
-        vbox.getChildren().add(display);
-        vbox.getChildren().add(new Label("===== " + lanLoader.show(319) + " ====="));
+        vbox.getChildren().addAll(display, displayOptions);
 
         vbox.getChildren().add(new Label(lanLoader.show(317)));
         ObservableList<String> scales = FXCollections.observableArrayList();
@@ -414,9 +417,8 @@ public class Settings implements Initializable {
 //        customFontBox.getChildren().add(fontSizeChooser);
 //        vbox.getChildren().add(customFontBox);
 
-        vbox.getChildren().add(new Label("===== " + lanLoader.show(320) + " ====="));
-        vbox.getChildren().add(languageText);
-        vbox.getChildren().add(languageChooser);
+        HBox languageSeparator = makeSeparator(320, 180.0);
+        vbox.getChildren().addAll(languageSeparator, languageText, languageChooser);
 
 //        customFont.selectedProperty().addListener((observable, oldValue, newValue) -> {
 //            if (newValue) {
@@ -479,12 +481,12 @@ public class Settings implements Initializable {
         hbox2.getChildren().add(excludeFormatList);
         hbox2.getChildren().add(vbox2);
 
-        Label text = new Label("======== " + lanLoader.show(305) + " ========");
-        pane.getChildren().add(text);
-        pane.getChildren().add(new Label(lanLoader.show(306)));
-        pane.getChildren().add(hbox1);
-        pane.getChildren().add(new Label(lanLoader.show(307)));
-        pane.getChildren().add(hbox2);
+        HBox header = makeSeparator(305, 240.0);
+        pane.getChildren().addAll(header,
+                new Label(lanLoader.show(306)),
+                hbox1,
+                new Label(lanLoader.show(307)),
+                hbox2);
 
         return pane;
     }
@@ -504,7 +506,7 @@ public class Settings implements Initializable {
         pane.setSpacing(10.0 * uiRatio);
         pane.setFillWidth(false);
 
-        Label other = new Label("======== " + lanLoader.show(312) + " ========");
+        HBox other = makeSeparator(312, 240.0);
 
         VBox subPane = new VBox();
         subPane.setSpacing(10.0 * uiRatio);
@@ -529,7 +531,7 @@ public class Settings implements Initializable {
         pane.getChildren().add(other);
         pane.getChildren().add(subPane);
 
-        pane.getChildren().add(new Label("====== " + lanLoader.show(326) + " ======"));
+        pane.getChildren().add(makeSeparator(326, 180.0));
 
         VBox subPane2 = new VBox();
         subPane2.setSpacing(10.0 * uiRatio);
@@ -586,9 +588,9 @@ public class Settings implements Initializable {
         pane.setSpacing(10.0 * uiRatio);
         pane.setFillWidth(true);
 
-        pane.getChildren().add(new Label("======== " + lanLoader.show(304) + " ========"));
+        pane.getChildren().add(makeSeparator(304, 240.0));
 
-        pane.getChildren().add(new Label("====== " + lanLoader.show(339) + " ======"));
+        pane.getChildren().add(makeSeparator(339, 180.0));
         HBox sepPane = new HBox();
         sepPane.setSpacing(10.0 * uiRatio);
         sepPane.setAlignment(Pos.CENTER);
@@ -610,7 +612,7 @@ public class Settings implements Initializable {
         sepPane.getChildren().add(help);
         pane.getChildren().add(sepPane);
 
-        pane.getChildren().add(new Label("====== " + lanLoader.show(340) + " ======"));
+        pane.getChildren().add(makeSeparator(340, 180));
 
         Button restore = new Button(lanLoader.show(322));
         Button clearHis = new Button(lanLoader.show(323));
@@ -868,5 +870,16 @@ public class Settings implements Initializable {
 
     }
 
-
+    private HBox makeSeparator(int languageCode, double defaultWidth) {
+        Separator sep1 = new Separator();
+        sep1.setPrefWidth(defaultWidth * uiRatio / 3.2);
+        Separator sep2 = new Separator();
+        sep2.setPrefWidth(defaultWidth * uiRatio / 3.2);
+        Label label = new Label(lanLoader.show(languageCode));
+        HBox hBox = new HBox(sep1, label, sep2);
+        hBox.setPrefWidth(defaultWidth * uiRatio);
+        hBox.setSpacing(10.0);
+        hBox.setAlignment(Pos.CENTER);
+        return hBox;
+    }
 }
