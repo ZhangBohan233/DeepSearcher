@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="trashsoftware.deepSearcher.controllers.ExplorerClient">
+    <children>
+        <VBox fx:id="rootBox" prefHeight="320.0" prefWidth="480.0">
+            <children>
+
+                <HBox fx:id="upperBox" prefHeight="290.0">
+                    <children>
+                        <TreeView fx:id="rootTree" prefWidth="200.0"/>
+                        <VBox >
+                            <children>
+
+                                <TableView fx:id="table">
+                                    <columns>
+                                        <TableColumn fx:id="nameCol" text="name" prefWidth="200.0"/>
+                                        <TableColumn fx:id="typeCol" text="type"/>
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox>
+                    <children>
+                        <HBox fx:id="leftBox" alignment="CENTER_LEFT" prefWidth="320.0">
+                            <children>
+                                <Label fx:id="currentLabel" text="Selected"/>
+                            </children>
+                        </HBox>
+                        <HBox fx:id="rightBox" alignment="CENTER_RIGHT" prefWidth="160.0">
+                            <children>
+                                <Button fx:id="selectButton" disable="true" mnemonicParsing="false"
+                                        onAction="#SelectButtonHandler" text="Select"/>
+                            </children>
+                        </HBox>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

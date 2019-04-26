@@ -1,0 +1,560 @@
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:48:50
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:48:53
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:48:54
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:50:22
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:50:24
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:50:26
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:50:27
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:50:28
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:50:29
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:50:30
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:52:29
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:52:31
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:52:31
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:52:33
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:56:10
+==========
+d
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:56:38
+==========
+gg
+D:\
+true false false false true false
+
+&
+@
+2018-01-05 19:57:03
+==========
+gg
+D:\
+true false false false true false
+
+&
+@
+2018-01-05 19:57:08
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 19:59:30
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 20:01:33
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 20:02:38
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 20:03:43
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 20:03:44
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 20:03:45
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 20:03:46
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 20:03:47
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 20:03:48
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 20:03:49
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 20:03:50
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 20:03:50
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 20:03:58
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-05 20:16:23
+==========
+a
+
+true false false false true false
+
+&
+@
+2018-01-05 20:59:14
+==========
+a
+
+true false false false true false
+
+&
+@
+2018-01-05 20:59:32
+==========
+gg
+
+true false false false true false
+
+&
+@
+2018-01-06 15:30:00
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-06 15:36:52
+==========
+gg
+
+true false false false true false
+
+&
+@
+2018-01-06 15:36:58
+==========
+gg
+
+true false false false true false
+
+&
+@
+2018-01-06 15:37:06
+==========
+gg
+D:\
+true false false false true false
+
+&
+@
+2018-01-06 15:37:13
+==========
+c
+
+true false false false true false
+
+&
+@
+2018-01-06 15:39:16
+==========
+c
+
+true false false false true false
+
+&
+@
+2018-01-06 15:39:54
+==========
+cae
+
+true false false false true false
+
+&
+@
+2018-01-06 15:39:58
+==========
+c
+E:\
+true false false false true false
+
+&
+@
+2018-01-06 15:41:34
+==========
+c
+E:\
+true false false false true false
+
+&
+@
+2018-01-06 15:49:13
+==========
+c
+E:\
+true false false false true false
+
+&
+@
+2018-01-06 15:49:15
+==========
+c
+E:\
+true false false false true false
+
+&
+@
+2018-01-06 15:49:22
+==========
+c
+E:\
+true false false false true false
+
+&
+@
+2018-01-06 15:49:24
+==========
+c
+E:\
+true false false false true false
+
+&
+@
+2018-01-06 15:49:26
+==========
+c
+E:\
+true false false false true false
+
+&
+@
+2018-01-06 15:49:27
+==========
+c
+E:\
+true false false false true false
+
+&
+@
+2018-01-06 15:49:31
+==========
+c
+D:\
+true false false false true false
+
+&
+@
+2018-01-06 15:49:53
+==========
+c
+D:\
+true false false false true false
+
+&
+@
+2018-01-06 15:49:57
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-10 14:25:16
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-10 14:25:19
+==========
+gg
+E:\
+true false true false true false
+.txt 
+&
+@
+2018-01-10 14:25:25
+==========
+gg
+E:\
+true false true false true false
+.txt 
+&
+@
+2018-01-10 14:25:27
+==========
+gg
+E:\
+true false true false true false
+.txt 
+&
+@
+2018-01-10 14:25:30
+==========
+gg
+E:\
+true false true false true false
+.txt 
+&
+@
+2018-01-10 14:25:31
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-10 14:27:58
+==========
+gg
+E:\
+true false false false true false
+
+&
+@
+2018-01-10 14:27:59
+==========
+gg
+E:\
+true false true false true false
+.txt 
+&
+@
+2018-01-10 14:28:05
+==========
+gg
+E:\
+true false true false true false
+.txt 
+&
+@
+2018-01-10 14:28:06
+==========
+gg
+E:\
+true false true false true false
+.txt 
+&
+@
+2018-01-10 14:28:08
+==========
+gg
+E:\
+true false true false true false
+.txt 
+&
+@
+2018-01-10 14:28:09
+==========
+gg
+E:\
+true false true false true false
+.txt 
+&
+@
+2018-01-10 14:28:11
+==========
+gg
+E:\
+true false true false true false
+.pyw .py .txt 
+&
+@
+2018-01-10 14:28:32
+==========
+gg
+E:\
+true false true false true false
+.pyw .py .txt 
+&
+@
+2018-01-10 14:28:33
+==========
+gg
+
+true false true false true false
+.txt 
+&
+@
+2018-01-10 14:30:04
+==========
+fff
+E:\图
+true false false false true false
+
+&
+@
+2019-04-25 23:20:44
+==========
+huffman
+E:\Programs
+true false true false true false
+.pdf 
+&
+@
+2019-04-26 00:04:40

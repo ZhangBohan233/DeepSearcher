@@ -1,0 +1,225 @@
+.root {
+    /* Swatch Colors - Blue*/
+    -swatch-100: #BBDEFB;
+    -swatch-200: #90CAF9;
+    -swatch-300: #64BEF6;
+    -swatch-400: #42A5F5;
+    -swatch-500: #2196F3;
+    /*default text */
+    -fx-text-base-color: rgb(100.0, 100.0, 100.0);
+    -fx-text-button-normal: -swatch-500;
+    -fx-text-button-colored: rgb(255.0, 255.0, 255.0);
+    -fx-text-button-text: rgb(100.0, 100.0, 100.0);
+    -fx-text-title-color: rgb(45.0, 45.0, 45.0);
+    -fx-text-subtitle-color: rgb(65.0, 65.0, 65.0);
+    -fx-text-control-title-color: rgb(130.0, 130.0, 130.0);
+    -fx-text-fill: -fx-text-base-color;
+    -dark: rgb(47.0, 52.0, 57.0);
+    -fx-background-color: rgb(234.0, 234.0, 234.0);
+    /*default font */
+    -fx-font-family: Roboto;
+    /*-fx-font-family: 'Roboto Medium';*/
+    -fx-disabled-opacity: 60%;
+    /*default colors */
+    -swatch-dark-grey: rgb(150.0, 150.0, 150.0);
+    -swatch-light-grey: rgb(230.0, 230.0, 230.0);
+    -swatch-grey: rgb(234.0, 234.0, 234.0);
+    -swatch-toolbar: rgb(245.0, 245.0, 245.0);
+    -swatch-toolbar-selected: rgb(215.0, 215.0, 215.0);
+    /*
+     Modena colors
+     */
+    -fx-dark-text-color: white; /* Text color when selected*/
+    -fx-mid-text-color: -fx-text-base-color;
+    -fx-light-text-color: -swatch-light-grey;
+    -fx-body-color: white;
+    /* A bright blue for the focus indicator of objects. Typically used as the
+     * first color in -fx-background-color for the "focused" pseudo-class. Also
+     * typically used with insets of -1.4 to provide a glowing effect.
+     */
+    -fx-focus-color: -swatch-400;
+    -fx-faint-focus-color: -swatch-200;
+    /* A bright blue for highlighting/accenting objects.  For example: selected
+     * text; selected items in menus, lists, trees, and tables; progress bars */
+    -fx-accent: -swatch-400;
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * Button & ToggleButton                                                       *
+ *                                                                             *
+ ******************************************************************************/
+.button, .toggle-button {
+    -fx-text-fill: -swatch-dark-grey;
+    -fx-background-radius: 2.0;
+    -fx-padding: 0.5em;
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * Text, Text field & Text area                                                *
+ *                                                                             *
+ ******************************************************************************/
+.text {
+    -fx-font-smoothing-type: gray;
+}
+
+.text-area, .text-field {
+    -fx-background-color: transparent;
+    -fx-background-radius: 2.0;
+    -fx-padding: 0.5em 0.5em 0.5em 0.1em;
+    -fx-border-color: -swatch-grey;
+    -fx-border-width: 0;
+}
+
+.search-box {
+    -fx-background-color: -swatch-toolbar;
+}
+
+.text-field-add {
+    -fx-border-color: rgb(200.0, 200.0, 200.0);
+    -fx-border-width: 0 0 2 0;
+
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * List, Tree, Table COMMON                                                    *
+ *                                                                             *
+ ******************************************************************************/
+.list-cell {
+    -fx-cell-size: 32;
+}
+
+.list-view-tag {
+    -fx-background-color: -swatch-grey;
+    -fx-background-insets: 0;
+}
+
+.list-view-tag .list-cell {
+    -fx-background-color: -swatch-grey;
+}
+
+.list-view-tag:focused .list-cell:filled:focused:selected {
+    -fx-background-color: rgba(0, 0, 0, 0.06);
+    -fx-text-fill: -dark;
+    -fx-font-weight: bold;
+
+}
+
+.list-view-img {
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+.list-view-img .list-cell {
+    -fx-background-color: white;
+    -fx-border-color: -swatch-grey;
+    -fx-border-width: 0 0 2 0;
+}
+
+.list-view-img:hover .list-cell:hover {
+    -fx-background-color: transparent;
+}
+
+.list-view-img:focused .list-cell:filled:focused:selected {
+    -fx-background-color: -swatch-500;
+
+}
+
+.list-view .scroll-bar:horizontal .track,
+.list-view .scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-border-radius: 2em;
+}
+
+.list-view .scroll-bar:horizontal .increment-button,
+.list-view .scroll-bar:horizontal .decrement-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-padding: 0 0 10 0;
+}
+
+.list-view .scroll-bar:vertical .increment-button,
+.list-view .scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-padding: 0 10 0 0;
+
+}
+
+.list-view .scroll-bar .increment-arrow,
+.list-view .scroll-bar .decrement-arrow {
+    -fx-shape: " ";
+    -fx-padding: 0;
+}
+
+.list-view .scroll-bar:horizontal .thumb,
+.list-view .scroll-bar:vertical .thumb {
+    -fx-background-color: derive(black, 90%);
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 1em;
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * CheckBox                                                                    *
+ *                                                                             *
+ ******************************************************************************/
+
+/*-unchecked-color: #5A5A5A;*/
+/*-checked-color: #0F9D58;*/
+
+
+.check-box {
+    -fx-shape: "M 400 100 L 400 100 A 50 50 0 1 1 400 250 A 50 50 0 1 1 400 100 ";
+    -fx-padding: 2;
+}
+
+.check-box>.box,
+.check-box>.box.unfocused,
+.check-box:disabled>.box,
+.check-box:indeterminate>.box {
+    -fx-pref-width: 15;
+    -fx-pref-height: 15;
+
+    -fx-min-width: -fx-pref-width;
+    -fx-max-width: -fx-pref-width;
+    -fx-min-height: -fx-pref-height;
+    -fx-max-height: -fx-pref-height;
+
+    -fx-background-color: transparent;
+    -fx-background-radius: 2;
+
+    -fx-border-color: rgb(200.0, 200.0, 200.0);
+    -fx-border-style: solid;
+    -fx-border-radius: 2;
+    -fx-border-width: 2;
+}
+
+.check-box:selected>.box {
+    -fx-background-color: -swatch-400;
+    -fx-border-color: -swatch-400;
+}
+
+.check-box:selected>.box>.mark {
+    -fx-shape: "M384 690l452-452 60 60-512 512-238-238 60-60z";
+    -fx-max-width: 15;
+    -fx-max-height: 12;
+
+    -fx-background-color: -swatch-grey;
+
+    -fx-border-color: -swatch-grey;
+    -fx-border-width: 2;
+    -fx-border-radius: 2;
+}
+
+.check-box:indeterminate>.box>.mark {
+    -fx-background-color: #0F9D58;;
+    -fx-background-radius: 2;
+    -fx-border-width: 0;
+    -fx-max-width: 10;
+    -fx-max-height: 10;
+}

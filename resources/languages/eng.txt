@@ -1,0 +1,179 @@
+0=English
+
+####################
+#       Main       #
+####################
+1=Search
+2= File
+3=Folder
+4=File Name
+5=Path
+6=Type
+7=Match
+8=Content
+9=File Name
+10=Search Directory Names
+11=Search File Contents
+12=Search
+13=Menu
+14=Help
+15=Settings
+16=About
+17=Select a directory
+18=Select all
+19=Check
+20=Extensions
+21=File Type
+22=Current directory:
+23=Open File
+24=Open Directory
+25=Exit
+26= Files
+27=No Files
+28=Searching...
+29=Search completes in
+30= s
+31=Search History
+32=None
+33=Search File Names
+34=Invalid format: contains multiple directory separators
+35=File
+36=Interrupted after
+37=Please wait for the current search thread done or cancel the current search thread.
+
+####################
+#   Format Names   #
+####################
+101=Text File
+102=Text File
+103=Preference File
+104=Python File
+105=Python File
+106=JAVA File
+107=Word 97-2003 Documents
+108=Word Documents
+109=Adobe PDF Documents
+110=Windows Command Prompt
+111=Windows Batch File
+112=Excel Worksheet
+113=Excel 97-2003 Worksheet
+114=PowerPoint Presentation
+115=PowerPoint 97-2003 Presentation
+116=Rich Text Format
+
+####################
+#    Information   #
+####################
+201=Error
+202=Cannot open the selected file
+203=File occupied
+204=Please confirm
+205=This operation cannot be undone
+206=Path does not exist
+207=Please confirm that this path is still on your computer.
+
+####################
+#     Settings     #
+####################
+301=Confirm
+302=Cancel
+303=Language
+304=General
+305=Exclusion
+306=Excluded Directories
+307=Excluded Formats
+308=Add Format
+309=Add
+310=Case-Sensitive
+311=Display
+312=Other Preferences
+313=Searching Options
+314=Keep original searching options \when re-search
+315=Program needs to be restarted to apply new UI settings
+316=Reminder
+317=UI Scale
+318=Theme
+319=UI Options
+320=Other Options
+321=Override default font size
+322=Restore default settings
+323=Clear search histories
+324=Restart Now
+325=Restart Later
+326=Separators
+327=Current:
+328=Used to separate multiple searching condition. Files will be shown only if they satisfy all conditions.
+329=Do not search extensions
+330=Separator:
+331=Directory separator:
+332=Used to separate file name and directory. Only the files satisfy conditions and contain this path fragment will be shown.
+333=Warning
+334=Invalid separator format
+335=Please set up another separator or click "Cancel"
+336=Show hidden files
+337=Replaces the native directory \chooser (Testing)
+338=Used to solve that the system root cannot be selected in Windows. \Only available under Windows.
+339=Options
+340=Restore
+
+####################
+#       About      #
+####################
+401=Trash Software Studio
+402=Deep Search
+403=Licence
+
+####################
+#      History     #
+####################
+501=Re-Search
+502=History
+503=Search content:
+504=Directory:
+505=Was searching \directories:
+506=Was searching \file contents:
+507=Case sensitive:
+508=Searched time:
+509=True
+510=False
+511=Was searching \file names:
+512=Showed hidden files:
+
+####################
+#   Time Format    #
+####################
+601=MM-dd-yyyy HH:mm:ss
+
+####################
+#      Themes      #
+####################
+701=Default
+702=Roboto
+703=Dark
+
+####################
+#    Help Info     #
+####################
+801=How to use
+802=Select a directory first. The search will begin from there.
+803=Click to select
+804=Input your search content inside the text box.
+805=Check the type(s) that you want to search at the left side.
+806=Click on "Search" or press "ENTER" to start searching.
+807=Search results will be displayed on the right table.
+808=You may use separator to split multiple searching conditions. \Results will be shown only if they satisfy all conditions.
+809=The default separator is "&", and the default path identifier is "@".
+810=You may use path identifier to split searching content and path. \Only the results that contain this path fragment and satisfy all other conditions.
+811=Note: Path identifier must be at the back of searching content. \There should be at most 1 path identifier.
+901=eng/select_folder.png
+902=eng/input_search.png
+903=eng/search_format.png
+
+####################
+#  File Explorer   #
+####################
+1001=This Computer
+1002=Select Folder
+1003=Directory Chooser
+1004=Selected:
+1005=Local Disk
